@@ -1,13 +1,11 @@
-import Layout from '../components/myLayout';
+import Layout from '../components/Layout';
 
 const About = () => {
     return (
-        <div>
-            <Layout>
-                <h1>About</h1>
-                <p>This is about page bro</p>
-            </Layout>
-        </div>
+        <Layout>
+            <h1>About</h1>
+            <p>This is about page bro</p>
+        </Layout>
     )
 };
 
