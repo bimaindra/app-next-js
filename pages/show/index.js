@@ -8,7 +8,7 @@ const TelevisionShow = props => (
         <ul>
             {props.data.map(i => (
                 <li key={i.id}>
-                    <Link href={`/show/detail/${i.name}`}>
+                    <Link href={`/show/detail?title=${i.name}`}>
                         <a>{i.name}</a>
                     </Link>
                 </li>
@@ -17,6 +17,6 @@ const TelevisionShow = props => (
     </Layout>
 );
 
-let get = Fetch(TelevisionShow, 'https://api.tvmaze.com/shows/2993/episodes');
+let get = Fetch(TelevisionShow, 'https://api.tvmaze.com/shows/2993/episodes', 'mapping');
 
 export default TelevisionShow;
