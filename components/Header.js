@@ -11,9 +11,11 @@ const Header = () => {
     return (
         <div>
             <Head>
-                <title>Nex Js Test | by Bima Indra</title>
+                <title>Simple Apps Using NextJs | by Bima Indra</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <meta name="description" content="This is an example of a meta description. This will often show up in search results."></meta>
+                <meta name="description" content="I'am Bima Indra Mulya. Indonesian who loves sport, travel, and tech. Liked cheesy jokes sometimes, and been around 4 years working as a Front End Engineer." />
+                <meta name="keywords" content="Front End Engineer, Front End Developer, Software Engineer, Indonesia, Jakarta" />
+                <meta property="og:title" content="Bima Indra Mulya | Front End Engineer" />
             </Head>
             <ul style={Style}>
                 <li style={Style}>
